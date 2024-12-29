@@ -1,4 +1,3 @@
-import React from 'react';
 interface types {
   id: number,
   name: string,
@@ -7,7 +6,7 @@ interface types {
 }
 
 const fetchData = async () => {
-  const res = await fetch('https://simple-books-api.glitch.me/books');
+  const res = await fetch("https://simple-books-api.glitch.me/books");
   const dataf = await res.json();
 
   return dataf;
