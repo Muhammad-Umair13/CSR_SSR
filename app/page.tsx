@@ -22,8 +22,8 @@ const HomePage = () => {
         <h2 className="text-2xl font-semibold mb-4">Description</h2>
         <p className="mb-2">Client-side rendering is a technique where the browser is responsible for rendering the HTML content using JavaScript.
           <br />
-          This process occurs after the page has been fully loaded in the client's browser.</p>
-        <p className="mb-2">Server-side rendering is a technique where the server generates the complete HTML content for a page and sends it to the client's browser.
+          This process occurs after the page has been fully loaded in the clients browser.</p>
+        <p className="mb-2">Server-side rendering is a technique where the server generates the complete HTML content for a page and sends it to the clients browser.
           <br />This process occurs before the page is fully loaded</p>
         {/* <p>Join us on a journey to explore the potentials of client-side and server-side rendering!</p> */}
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react'
-import Image from 'next/image';
+
 
 interface card {
     id: number,
@@ -40,7 +40,7 @@ const Client_side = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 p-4 bg-[#f5b94b]"> {
             data1.map((value, index) => (
                 <div key={index} className="border-4 border-black rounded-lg shadow-lg p-4 bg-white">
-                    <Image src={value.image} alt={value.title} className="h-40 w-1/2 m-auto rounded-t-lg" width={100} height={100}/>
+                    <img src={value.image} alt={value.title} className="h-40 w-1/2 m-auto rounded-t-lg" />
                     <div className="p-4">
                         <h2 className="text-lg font-bold mb-2">{value.title}</h2>
                         <p className="text-gray-600 mb-2"><i>{value.category}</i></p>
