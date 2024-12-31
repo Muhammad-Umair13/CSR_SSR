@@ -31,8 +31,8 @@ const Client_side = () => {
     }, [])
 
     if (loading) {
-        return <div className="flex items-center justify-center min-h-screen bg-[#f5b94b]">
-            <div className="spinner-border animate-spin inline-block w-20 h-20 rounded-full text-black border-8 border-t-transparent border-black"></div>
+        return <div className="flex items-center justify-center min-h-screen bg-black">
+            <div className="spinner-border animate-spin inline-block w-20 h-20 rounded-full border-8 border-t-transparent border-[#ac802f]"></div>
             <span className="ml-4 text-[#ac802f] text-lg font-bold">Loading...</span>
         </div>
     }
